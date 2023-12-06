@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shankaranandh_jhttp_1701903035645-push-trigger-input-set
+  identifier: Build_shankaranandh_jhttp_1701903035645pushtriggerinputset
+  orgIdentifier: cvng
+  projectIdentifier: srmsockshop
+  pipeline:
+    identifier: Build_shankaranandh_jhttp_1701903035645
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
